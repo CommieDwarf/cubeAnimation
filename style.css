@@ -1,0 +1,15 @@
+body {
+    font-size: 20px;
+}
+
+#left-panel {
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    
+}
+
+#animation {
+    display: inline-block;
+}

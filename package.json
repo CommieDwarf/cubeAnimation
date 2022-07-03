@@ -1,0 +1,19 @@
+{
+  "name": "cube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watchify": "watchify ./src/script.js -o ./dist/bundle.js --debug;",
+    "start" : "./node_modules/.bin/http-server -a localhost -p 8000 -c-1"
+  },
+  "author": "Konrad Czaczkowski",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.0",
+    "three": "^0.140.2",
+    "three-orbitcontrols": "^2.110.3",
+    "watchify": "^4.0.0"
+  }
+}
